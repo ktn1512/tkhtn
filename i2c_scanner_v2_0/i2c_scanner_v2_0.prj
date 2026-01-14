@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="i2c_scanner_v2_0" location="E:/vivado_prj/i2c_scanner_v2_0" platform="E:/vivado_prj/i2c_scan_v2/export/i2c_scan_v2/i2c_scan_v2.xpfm" platformUID="xilinx:arty-a7-35::0.0(custom)" systemProject="i2c_scanner_v2_0_system" sysConfig="i2c_scan_v2" runtime="cpp" cpu="standalone_microblaze_0" cpuInstance="microblaze_0" os="standalone" mssSignature="baefe1c649585edd7821a18c1233fd85">
+  <configuration name="Debug" id="xilinx.gnu.mb.exe.debug.1529031392">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.mb.exe.release.56761940" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="hello_world"/>
+</sdkproject:SdkProject>
