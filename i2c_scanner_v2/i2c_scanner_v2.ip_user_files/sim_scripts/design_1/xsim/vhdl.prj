@@ -1,0 +1,7 @@
+vhdl xil_defaultlib  \
+"../../../bd/design_1/ipshared/0603/hdl/i2c_scanner.vhd" \
+"../../../bd/design_1/ipshared/0603/hdl/i2c_scanner_v1_1_S_AXI.vhd" \
+"../../../bd/design_1/ipshared/0603/hdl/i2c_scanner_v1_1.vhd" \
+"../../../bd/design_1/ip/design_1_i2c_scanner_0_0/sim/design_1_i2c_scanner_0_0.vhd" \
+
+nosort

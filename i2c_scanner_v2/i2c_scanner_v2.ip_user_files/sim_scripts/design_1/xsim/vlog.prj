@@ -1,0 +1,10 @@
+sv xil_defaultlib --include "E:/Xilinx/Vivado/2020.2/data/xilinx_vip/include" --include "../../../../i2c_scanner_v2.gen/sources_1/bd/design_1/ipshared/ec67/hdl" \
+"../../../bd/design_1/ip/design_1_axi_vip_0_0/sim/design_1_axi_vip_0_0_pkg.sv" \
+"../../../bd/design_1/ip/design_1_axi_vip_0_0/sim/design_1_axi_vip_0_0.sv" \
+
+verilog xil_defaultlib --include "E:/Xilinx/Vivado/2020.2/data/xilinx_vip/include" --include "../../../../i2c_scanner_v2.gen/sources_1/bd/design_1/ipshared/ec67/hdl" \
+"../../../bd/design_1/sim/design_1.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

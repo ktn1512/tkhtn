@@ -1,0 +1,11 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../i2c_scanner_v2.ip_user_files/bd/design_1/ipshared/51b6/hdl/i2c_scanner.vhd" \
+"../../../../i2c_scanner_v2.ip_user_files/bd/design_1/ipshared/51b6/hdl/i2c_scanner_v1_1_S_AXI.vhd" \
+"../../../../i2c_scanner_v2.ip_user_files/bd/design_1/ipshared/51b6/hdl/i2c_scanner_v1_1.vhd" \
+"../../../../i2c_scanner_v2.ip_user_files/bd/design_1/ip/design_1_i2c_scanner_0_0/sim/design_1_i2c_scanner_0_0.vhd" \
+"../../../../../my_ip/ip_repo/i2c_scanner_1.1/hdl/i2c_scanner.vhd" \
+"../../../../i2c_scanner_v2.srcs/sim_1/new/tb_i2c_scanner.vhd" \
+
+# Do not sort compile order
+nosort

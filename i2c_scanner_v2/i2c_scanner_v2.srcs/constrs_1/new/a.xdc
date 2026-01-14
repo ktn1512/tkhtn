@@ -1,0 +1,6 @@
+set_property PACKAGE_PIN L18 [get_ports SCL_0]
+set_property PACKAGE_PIN M18 [get_ports SDA_0]
+set_property IOSTANDARD LVCMOS33 [get_ports SCL_0]
+set_property IOSTANDARD LVCMOS33 [get_ports SDA_0]
+set_property PULLUP true [get_ports SCL_0]
+set_property PULLUP true [get_ports SDA_0]

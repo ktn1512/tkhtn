@@ -1,0 +1,5 @@
+set_property SRC_FILE_INFO {cfile:E:/vivado_prj/i2c_scanner_v2/i2c_scanner_v2.srcs/constrs_1/new/a.xdc rfile:../../../i2c_scanner_v2.srcs/constrs_1/new/a.xdc id:1} [current_design]
+set_property src_info {type:XDC file:1 line:1 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN L18 [get_ports SCL_0]
+set_property src_info {type:XDC file:1 line:2 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN M18 [get_ports SDA_0]

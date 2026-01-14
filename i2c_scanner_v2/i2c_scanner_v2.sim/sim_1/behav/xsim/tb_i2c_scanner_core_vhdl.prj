@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../my_ip/ip_repo/i2c_scanner_1.1/hdl/i2c_scanner.vhd" \
+"../../../../i2c_scanner_v2.srcs/sim_1/new/tb_i2c_scanner.vhd" \
+
+# Do not sort compile order
+nosort

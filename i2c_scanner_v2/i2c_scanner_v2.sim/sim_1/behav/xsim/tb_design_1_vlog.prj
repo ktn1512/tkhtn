@@ -1,0 +1,17 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  --include "../../../../i2c_scanner_v2.gen/sources_1/bd/design_1/ipshared/ec67/hdl" --include "../../../../i2c_scanner_v2.gen/sources_1/bd/i2c_scan_v2/ipshared/d0f7" --include "../../../../i2c_scanner_v2.gen/sources_1/bd/i2c_scan_v2/ipshared/ec67/hdl" --include "E:/Xilinx/Vivado/2020.2/data/xilinx_vip/include" \
+"../../../../i2c_scanner_v2.ip_user_files/bd/design_1/ip/design_1_axi_vip_0_0/sim/design_1_axi_vip_0_0_pkg.sv" \
+"../../../../i2c_scanner_v2.ip_user_files/bd/design_1/ip/design_1_axi_vip_0_0/sim/design_1_axi_vip_0_0.sv" \
+
+verilog xil_defaultlib  --include "../../../../i2c_scanner_v2.gen/sources_1/bd/design_1/ipshared/ec67/hdl" --include "../../../../i2c_scanner_v2.gen/sources_1/bd/i2c_scan_v2/ipshared/d0f7" --include "../../../../i2c_scanner_v2.gen/sources_1/bd/i2c_scan_v2/ipshared/ec67/hdl" --include "E:/Xilinx/Vivado/2020.2/data/xilinx_vip/include" \
+"../../../../i2c_scanner_v2.ip_user_files/bd/design_1/sim/design_1.v" \
+"../../../../i2c_scanner_v2.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v" \
+
+sv xil_defaultlib  --include "../../../../i2c_scanner_v2.gen/sources_1/bd/design_1/ipshared/ec67/hdl" --include "../../../../i2c_scanner_v2.gen/sources_1/bd/i2c_scan_v2/ipshared/d0f7" --include "../../../../i2c_scanner_v2.gen/sources_1/bd/i2c_scan_v2/ipshared/ec67/hdl" --include "E:/Xilinx/Vivado/2020.2/data/xilinx_vip/include" \
+"../../../../i2c_scanner_v2.srcs/sim_1/new/tb_i2c_scanner.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

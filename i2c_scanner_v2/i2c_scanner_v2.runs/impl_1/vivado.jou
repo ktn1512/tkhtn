@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sat Jan 10 05:48:26 2026
+# Process ID: 17900
+# Current directory: E:/vivado_prj/i2c_scanner_v2/i2c_scanner_v2.runs/impl_1
+# Command line: vivado.exe -log i2c_scan_v2_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source i2c_scan_v2_wrapper.tcl -notrace
+# Log file: E:/vivado_prj/i2c_scanner_v2/i2c_scanner_v2.runs/impl_1/i2c_scan_v2_wrapper.vdi
+# Journal file: E:/vivado_prj/i2c_scanner_v2/i2c_scanner_v2.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source i2c_scan_v2_wrapper.tcl -notrace

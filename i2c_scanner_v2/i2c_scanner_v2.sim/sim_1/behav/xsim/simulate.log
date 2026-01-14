@@ -1,0 +1,16 @@
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+XilinxAXIVIP: Found at Path: tb_design_1.DUT.design_1_i.axi_vip_0.inst
+--------------------------------------------------
+--- SIMULATION START: I2C SCANNER (SLOW & STABLE) ---
+[INFO] Clock Divider set to 250 (Standard Speed)
+[PASS] Master Scan 0x0000004e : NOT FOUND (Correct)
+[PASS] Master Scan 0x0000004f : NOT FOUND (Correct)
+[PASS] Master Scan 0x00000050 : FOUND (Correct)
+[PASS] Master Scan 0x00000051 : NOT FOUND (Correct)
+[PASS] Master Scan 0x00000052 : FOUND (Correct)
+[PASS] Master Scan 0x00000053 : NOT FOUND (Correct)
+--------------------------------------------------
+--- SIMULATION FINISHED ---
+Executing Axi4 End Of Simulation checks
+$finish called at time : 1883505 ns : File "E:/vivado_prj/i2c_scanner_v2/i2c_scanner_v2.srcs/sim_1/new/tb_i2c_scanner.sv" Line 75
